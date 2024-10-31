@@ -1,0 +1,9 @@
+// Copy this file to .dev.vars and replace the values with your own 
+// if you are running locally
+
+// Or use wrangler secret put command to put the prisma accelerate 
+// connection pool url in the worker as secret with the key given below
+
+// Or use cloudflare workers dashboard to add the secret with the key given below
+
+DATABASE_URL="your prisma accelerate connection pool url"
